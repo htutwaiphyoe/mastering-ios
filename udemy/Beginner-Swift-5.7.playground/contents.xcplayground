@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Comments and Print Statements'/>
+        <page name='Types and Variables - Mutability'/>
+        <page name='Types and Variables - Naming'/>
+        <page name='Optionals'/>
+        <page name='Implicit Optionals and Force Unwrapping'/>
+        <page name='Optional Binding'/>
+        <page name='Blocks, Scope and Spacing'/>
+        <page name='Optional Binding - If-Let or Var'/>
+        <page name='Optional Binding - Guard-Let or Var'/>
+        <page name='Arithmetic Operators'/>
+        <page name='If-Else and Comparison Operators'/>
+        <page name='Logical Operators'/>
+        <page name='Other Operators'/>
+        <page name='Strings and Interpolation'/>
+        <page name='Enumerations and Switch'/>
+        <page name='Functions - Fundamentals'/>
+        <page name='Arrays'/>
+        <page name='Functions - Naming'/>
+        <page name='Dictionaries'/>
+        <page name='Loops'/>
+        <page name='Control Flow'/>
+    </pages>
+</playground>
