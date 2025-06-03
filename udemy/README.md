@@ -16,3 +16,14 @@ Swift programming language is for developing applications in Apple ecosystem
 Swift => iOS, macOS, tvOS, watchOS, visionOS
 
 Alternative language => Objective-C
+
+```swift
+print("Hello, iOS Development")
+
+// single
+
+/*
+  multiple
+  line
+*/
+```
