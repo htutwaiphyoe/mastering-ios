@@ -8,3 +8,5 @@ Native -> Official SDKs -> Apple Platforms -> iOS + iPadOS -> Swift -> SwiftUI
 
 SwiftUI -> multi OS -> UI -> Swift
 UIKit -> Swift + Objective-C
+
+Follow Apple Human Interface Guidelines
