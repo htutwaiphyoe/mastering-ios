@@ -2,3 +2,8 @@
 
 [Course](https://firtman.github.io/intro-swift/)
 
+## Introduction
+
+Native -> Official SDKs -> Apple Platforms -> iOS + iPadOS -> Swift -> SwiftUI
+
+SwiftUI -> multi OS
