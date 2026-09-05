@@ -197,10 +197,54 @@ func sum(a: Int, b: Int, c: Int) -> Int {
     return a+b+c
 }
 
-func sum(num1 a: Int, num2 b: Int) -> Int {
+func sum(_ a: Int, with b: Int) -> Int {
     return a+b
 }
 
-sum(num1: 1, num2: 2)
+sum(1, with: 2)
 
+```
+
+## Closures
+
+```swift
+
+/*: * Closures
+ Called literal functions, anonymous functions or lambda expressions on other languages.
+ We use the special data type Void to express no return value
+*/
+
+var closure: ()->Void = {
+    
+}
+
+// Arguments are available on anonymous variables or you can define names within the code block using `in`
+var onSelectedItem: (Int)->Void = {
+    print($0)
+}
+
+var onSelectedItem: (Int)->Void = { name in
+    print(nae)
+}
+
+// Special syntax for functions receiving closures as arguments
+func requestData(callback: (String)->Void) {
+    
+}
+
+// How do you call that function?
+
+requestData(callback: { data in 
+
+})
+
+// arg is closure
+
+requestData{ data in 
+
+}
+
+[].map { data in
+
+}
 ```
