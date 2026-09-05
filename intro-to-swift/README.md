@@ -308,3 +308,14 @@ Declarative UI Framework, 2019, data binding, struct based
 ## Project
 
 iOS -> App -> Product Name + Team + Identifiers + SwiftUI + Swift
+
+Simulator -> App
+
+Emulator -> virtual machine
+
+some -> return only one type of something
+
+View must return only one view -> group views
+
+VStack -> vertical stack
+HStack -> horizontal stack
