@@ -319,7 +319,27 @@ View must return only one view -> group views
 
 VStack -> vertical stack view
 HStack -> horizontal stack view
+ZStack -> layer stack view
 Button -> button view
+Label -> text + image view
 
 modifier -> return new view -> order of modifier matters -> can add multi modifiers -> no margin
 color -> .color
+
+ScrollView -> for scroll (NOT Scrollable by default)
+
+TextField -> input view
+
+@State -> useState -> $state -> two way binding
+
+dimension -> point unit
+
+LazyHStack, LazyVStack -> lazy load scroll
+
+Spacer -> gap view
+
+List -> VStack + interaction view
+
+ForEach -> Loop view
+
+NavigationView, NavigationLink, TabView, TextField, Toggle
