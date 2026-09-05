@@ -137,3 +137,28 @@ let cities: [String] = ["Alameda", "Buenos Aires", "Cali"]
 let anything: [Any] = [1, true, "A"]
 
 ```
+
+## Null Safety
+
+```swift
+
+/*: * Null Safety
+ A String must have a string value, but a String? accepts nil (aka null)
+*/
+
+var name: String?
+
+// Null-safe operators
+//print(name.count)
+
+// If let -> removing optional
+if let name = name { // variable in if scope
+    print(name!.count)
+    print(name?.count)
+    print(name?.count ?? 0)
+    print(name ? name.count : 0)
+}
+
+guard
+
+```
