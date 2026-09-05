@@ -317,5 +317,9 @@ some -> return only one type of something
 
 View must return only one view -> group views
 
-VStack -> vertical stack
-HStack -> horizontal stack
+VStack -> vertical stack view
+HStack -> horizontal stack view
+Button -> button view
+
+modifier -> return new view -> order of modifier matters -> can add multi modifiers -> no margin
+color -> .color
