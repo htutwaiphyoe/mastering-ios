@@ -162,3 +162,45 @@ if let name = name { // variable in if scope
 guard
 
 ```
+
+## Functions
+
+```swift
+
+/*: * Functions
+ A surprise is waiting in this matter with argument labels
+*/
+
+func aFunction() {
+    print("I'm a function")
+}
+
+func aFunctionReturning() -> String {
+    return "I'm a function"
+}
+
+func aFunctionReturning2() -> String {
+    "I'm a function" // implicit return
+}
+
+// Arguments
+func sum(a: Int, b: Int) -> Int {
+    return a+b
+}
+
+// How do you call sum?
+
+sum(a: 10, b: 8)
+
+// can create same name with different args because arg labels are merged in function name (sumabc)
+func sum(a: Int, b: Int, c: Int) -> Int {
+    return a+b+c
+}
+
+func sum(num1 a: Int, num2 b: Int) -> Int {
+    return a+b
+}
+
+sum(num1: 1, num2: 2)
+
+```
