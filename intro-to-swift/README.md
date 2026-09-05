@@ -248,3 +248,55 @@ requestData{ data in
 
 }
 ```
+
+## Custom Types
+
+```swift
+
+/*: * Custom Types
+ We have several options to create Custom Types:
+  - typealias
+  - enum
+  - protocol
+  - class
+  - struct
+*/
+
+typealias Coordinate = (Int, Int)
+
+enum Language {
+    case Swift
+    case Kotlin
+    case Dart
+    case JavaScript
+}
+
+// OOP, instance pass by reference
+class Person {
+    var name = ""
+    var age = 0
+
+    init(){
+    }
+
+    func method(){
+     self.name
+
+    }
+}
+
+// no OOP, instance pass by value
+struct ApiResponse {
+    var status: Int
+    var data: [String]
+}
+
+ApiResponse(status: 1) // auto initializer, faster than class
+
+
+// optional function
+protocol Printable {
+    func print()
+}
+
+```
