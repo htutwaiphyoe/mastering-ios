@@ -304,3 +304,7 @@ protocol Printable {
 ## Swift UI
 
 Declarative UI Framework, 2019, data binding, struct based
+
+## Project
+
+iOS -> App -> Product Name + Team + Identifiers + SwiftUI + Swift
