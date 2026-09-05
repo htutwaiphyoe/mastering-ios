@@ -62,7 +62,9 @@ var 🐄 = 1
 var 愛 = "love"
 
 // Visibility
-public var visible = 1
-private var invisible = 2
-fileprivate var kindOfInvisible = 3
+public var visible = 1 // by default
+private var invisible = 2 // based on scope
+fileprivate var kindOfInvisible = 3 // only current file
+
+var object = Class() // no new keyword
 ```
