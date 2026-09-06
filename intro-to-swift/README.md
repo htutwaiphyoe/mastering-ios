@@ -363,3 +363,11 @@ Image -> image view
 Image("name").frame(width, height, maxWidth: .infinity).clipped()
 
 NavigationView -> child.navigationTitle("Title)
+
+TabView -> .tabItem(labelView)
+
+built-in svg -> Image(systemName: "name")
+
+[sf-symbols](https://developer.apple.com/sf-symbols/)
+
+AccentColor -> default blue
