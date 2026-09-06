@@ -343,3 +343,9 @@ List -> VStack + interaction view
 ForEach -> Loop view
 
 NavigationView, NavigationLink, TabView, TextField, Toggle
+
+Preview code are not compiled in production
+
+padding(.bottom, 25)
+
+leading, trailing -> left and right
