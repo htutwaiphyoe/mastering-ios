@@ -349,3 +349,7 @@ Preview code are not compiled in production
 padding(.bottom, 25)
 
 leading, trailing -> left and right
+
+use Assets for color -> Color set -> Inspector Panel
+
+Library -> Color -> Color("name")
