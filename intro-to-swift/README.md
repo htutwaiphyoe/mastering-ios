@@ -371,3 +371,23 @@ built-in svg -> Image(systemName: "name")
 [sf-symbols](https://developer.apple.com/sf-symbols/)
 
 AccentColor -> default blue
+
+Files can order
+
+File -> New Group
+
+NavigationLink -> navigation
+
+Stepper -> - +
+
+AsyncImage(url)
+
+environment objects -> contex -> .environmentObject()
+
+extends @ObservableObject
+
+@Published -> model level
+
+@EnvironmentObject -> consumer level
+
+Section -> section view
