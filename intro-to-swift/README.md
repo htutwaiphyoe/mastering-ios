@@ -401,3 +401,19 @@ External dependency -> File -> Add package -> find library -> add package
 show under Package Dependencies
 
 specifier: "%.2f"
+
+@Environment(\.dismiss) var dismiss -> OS environment variables
+
+CocoaPods, Swift Package Manager -> npm
+
+UIKit supports web view, not SwiftUI
+
+UIViewRepresentable -> UIKit view in SwiftUI -> makeUIView, updateUIView
+
+webView.evaluateJavaScript("JS code")
+
+Assets -> AppIcon
+
+Settings -> Launch screen
+
+Any iOS Device -> Product -> Archive -> Signing -> .ipa
