@@ -353,3 +353,13 @@ leading, trailing -> left and right
 use Assets for color -> Color set -> Inspector Panel
 
 Library -> Color -> Color("name")
+
+use Assets for image -> Image set -> 3 files for different resolutions (1x, 2x, 3x) -> can use pdf, svg
+
+pdf, svg -> inspector -> scale -> single scale
+
+Image -> image view
+
+Image("name").frame(width, height, maxWidth: .infinity).clipped()
+
+NavigationView -> child.navigationTitle("Title)
