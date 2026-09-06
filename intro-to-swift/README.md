@@ -391,3 +391,13 @@ extends @ObservableObject
 @EnvironmentObject -> consumer level
 
 Section -> section view
+
+Preview needs environment object
+
+Alamofire -> API library
+
+External dependency -> File -> Add package -> find library -> add package
+
+show under Package Dependencies
+
+specifier: "%.2f"
